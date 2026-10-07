@@ -13,9 +13,6 @@ void moveZeros(vector<int> &nums)
             {
                 nums[pos] = nums[i];
             }
-            
-    
-    
             pos++;
         }
     }
@@ -24,6 +21,7 @@ void moveZeros(vector<int> &nums)
         nums[i] = 0;
     }
 }
+
 int main()
 {
     vector<int> v = {0,1,0,3, 12};
